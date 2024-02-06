@@ -10,7 +10,7 @@ import { Contact } from "./pages/Contact.jsx";
 import { Home } from "./pages/Home.jsx";
 import { NotFound } from "./pages/NotFound.jsx";
 
-// const basename = process.env.PUBLIC_URL;
+const basename = "/test";
 const routes = [
   {
     path: "/",
@@ -30,7 +30,7 @@ const routes = [
   },
 ];
 
-const router = createBrowserRouter(routes);
+const router = createBrowserRouter(routes, { basename: basename });
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
