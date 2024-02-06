@@ -1,7 +1,7 @@
 {
+  "homepage": "https://github.com/leejihahaha/test",
   "name": "react-portfolio",
   "private": true,
-  "homepage": "https://heeaepark.github.io/test",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
